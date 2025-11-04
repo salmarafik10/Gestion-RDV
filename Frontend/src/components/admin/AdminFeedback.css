@@ -1,0 +1,9 @@
+.status-badge.pending { background: #f3eaff; color: #7c3aed; }
+.status-badge.confirmed { background: #ffeaea; color: #e53935; }
+.status-badge.cancelled { background: #ffeaea; color: #e53935; }
+.status-badge.completed { background: #e0ffe0; color: #388e3c; }
+.status-badge.absent { background: #e0e0e0; color: #888; }
+.admin-table td:nth-child(4) {
+  display: flex;
+  justify-content: space-around;
+}

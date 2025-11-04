@@ -1,0 +1,88 @@
+.steps-section {
+  background-color: #f8f5ef;
+  padding: 60px 0;
+  border-radius: 15px;
+}
+
+.steps-section h4 {
+  color: #101c54;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.step-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.step-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  border: 1px solid #e9ecef;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.step-icon {
+  margin-bottom: 20px;
+}
+
+.step-icon i {
+  font-size: 3rem;
+  color: #12706b;
+  background: linear-gradient(135deg, #12706b, #101c54);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.step-title {
+  color: #101c54;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.step-description {
+  color: #6c757d;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.btn-book-appointment {
+  background: white;
+  color: #2937B1;
+  border: 2px solid #2937B1;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-book-appointment:hover {
+  background-color: #2937B1;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(18, 112, 107, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .step-card {
+    margin-bottom: 20px;
+  }
+  
+  .steps-section h4 {
+    font-size: 1.5rem;
+  }
+}

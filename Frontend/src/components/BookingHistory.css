@@ -1,0 +1,48 @@
+.booking-history {
+  width: 100%;
+}
+
+.booking-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(16,28,84,0.08);
+  padding: 18px 18px 10px 18px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.booking-cancel-link {
+  color: #ffc107;
+  font-weight: 500;
+  cursor: pointer;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  text-decoration: underline;
+}
+
+.booking-cancel-link:hover {
+  color: #ff9800;
+}
+.booking-pagination {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.booking-pagination button {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.booking-pagination button.active {
+  background: #176c5b;
+  color: #fff;
+  border: none;
+}

@@ -1,0 +1,82 @@
+.rdv-booking-bg {
+  min-height: 100vh;
+  
+}
+
+.rdv-hero-section {
+  width: 100%;
+  min-height: 550px;
+  background: linear-gradient(
+    135deg,
+    var(--white) 0%,
+    var(--light-yellow) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.rdv-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 600px;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.rdv-hero-left {
+  color: #222;
+  max-width: 500px;
+  margin-left: 30px;
+}
+
+.rdv-hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+
+.rdv-hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 32px;
+  color: #222;
+}
+
+.rdv-learn-btn {
+  background: linear-gradient(135deg, var(--blue), var(--green));
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 16px 40px;
+  box-shadow: 0 2px 8px rgba(16,28,84,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+
+.rdv-learn-btn:hover {
+  background: #101c54;
+  color: #fff;
+}
+
+@media (max-width: 1100px) {
+  .rdv-hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 40px;
+  }
+  .rdv-hero-left {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .rdv-hero-right {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}

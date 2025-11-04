@@ -1,0 +1,38 @@
+.feedback-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.feedback-section h2 {
+  color: #101c54;
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #101c54;
+  box-shadow: 0 0 0 0.2rem rgba(16, 28, 84, 0.25);
+}
+
+.btn-feedback {
+  background-color: #FAE084;
+  color: #101c54;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-feedback:hover {
+  color: white;
+  background-color: #0a1333;
+  transform: translateY(-2px);
+}

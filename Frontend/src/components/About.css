@@ -1,0 +1,99 @@
+.about-bg {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+
+.about-hero-content {
+  color: #fff;
+  margin-left: 60px;
+  padding-top: 40px;
+}
+
+.about-hero-btn {
+  background: #2d39b4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 14px 38px;
+  margin-top: 18px;
+}
+
+
+.about-blog-section {
+  background: #fff;
+  padding: 60px 0 40px 0;
+}
+
+
+.about-blog-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+}
+
+.about-blog-card {
+  background: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(16,28,84,0.08);
+  padding: 18px;
+  width: 220px;
+}
+
+.about-blog-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.about-blog-date {
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.about-blog-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+
+
+.about-team-section {
+  background: #fff;
+  padding: 60px 0 40px 0;
+}
+
+.about-team-section h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.about-team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.about-team-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(16,28,84,0.08);
+  padding: 18px 24px;
+  min-width: 320px;
+  max-width: 350px;
+}
+
+.about-team-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}

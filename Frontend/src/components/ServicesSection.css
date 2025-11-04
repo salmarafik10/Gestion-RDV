@@ -1,0 +1,19 @@
+.services-section {
+  background: #f4de8e;
+}
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+.btn-outline-dark{
+  background: #FAE084;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+.btn-outline-dark:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(18, 112, 107, 0.3);
+}

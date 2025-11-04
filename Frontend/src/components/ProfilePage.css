@@ -1,0 +1,51 @@
+.profile-bg {
+  background: #7cc7ab;
+  min-height: 100vh;
+  padding-bottom: 0;
+}
+
+.profile-main {
+  display: flex;
+  gap: 40px;
+  padding: 40px 0 0 0;
+}
+
+.profile-left, .profile-right {
+  background: #f9f6ef;
+  border-radius: 20px;
+  padding: 32px 24px;
+  flex: 1;
+  min-width: 340px;
+}
+.profile-left{
+  background: #f9f6ef;
+  border-radius: 20px;
+  padding: 32px 24px;
+  flex: 1;
+  min-width: 340px;
+  height: 600px;
+}
+
+.profile-logout-section {
+  background: #fff;
+  padding: 40px 0 80px 0;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.profile-logout-btn {
+  background: #ffe066;
+  color: #101c54;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 16px 40px;
+  margin-top: 10px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.profile-logout-btn:hover {
+  background: #101c54;
+  color: #fff;
+}

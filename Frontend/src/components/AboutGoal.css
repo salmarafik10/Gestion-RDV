@@ -1,0 +1,78 @@
+.about-goal-section {
+  display: flex; /* Utilise Flexbox pour aligner l'image et le texte */
+  align-items: center; /* Centre les éléments verticalement */
+  justify-content: center; /* Centre les éléments horizontalement */
+  background: #63af93;/* Fond blanc pour la section */
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-height: 500px;
+  border-radius: 10px;
+  gap: 40px; /* Espace entre l'image et le texte */
+}
+
+.about-goal-img {
+  flex: 1; /* L'image prend la moitié de l'espace disponible */
+  max-width: 50%; 
+  display: flex;
+  margin-left: 50px;
+  justify-content: flex-end; /* Aligne l'image à droite dans son conteneur */
+}
+
+.about-goal-img img {
+  width: 100%; /* L'image remplit toute la largeur de son conteneur */
+  height: 500px; /* Hauteur fixe pour l'image */
+  object-fit: cover; /* Assure que l'image couvre la zone sans être déformée */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.about-goal-text {
+  flex: 1; /* Le texte prend l'autre moitié de l'espace disponible */
+  max-width: 50%; /* Limite la largeur du texte à 50% du conteneur */
+  padding-right: 40px; /* Espacement à droite pour le texte */
+  text-align: center; /* Texte aligné à gauche */
+}
+
+.about-goal-text h2 {
+  font-size: 2.5rem; /* Taille du titre */
+  font-weight: bold;
+  color: #FAE084; /* Couleur du titre */
+  margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+.about-goal-text p {
+  font-size: 1.1rem; /* Taille du paragraphe */
+  line-height: 1.8; /* Hauteur de ligne pour une meilleure lisibilité */
+  color:white; /* Couleur du texte */
+  
+}
+
+/* Responsive design pour les petits écrans */
+@media (max-width: 992px) {
+  .about-goal-section {
+    flex-direction: column; /* Empile les éléments verticalement */
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .about-goal-img,
+  .about-goal-text {
+    max-width: 100%; /* Les deux prennent toute la largeur */
+    padding-right: 0;
+    text-align: center; /* Centre le texte sur les petits écrans */
+  }
+
+  .about-goal-img img {
+    height: 300px; /* Réduit la hauteur de l'image */
+  }
+}
+
+@media (max-width: 576px) {
+  .about-goal-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-goal-text p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,36 @@
+.about-img {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 43%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.aboutDiv{
+  margin-left: 100px;
+}
+.btn-primary {
+  background: #2937B1;
+  color: white;
+  border: 2px solid #2937B1;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #2937B1;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(18, 112, 107, 0.3);
+}
+@media (max-width: 900px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-img {
+    margin: 24px 0 0 0 !important;
+  }
+}

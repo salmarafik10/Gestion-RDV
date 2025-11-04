@@ -1,0 +1,140 @@
+.team-section {
+  background: #f8f5ef;
+  padding: 80px 0;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+.team-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.team-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.team-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.team-text h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.team-text p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.btn-view-team {
+  background: linear-gradient(135deg, var(--blue), var(--green));
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+ 
+}
+
+.btn-view-team:hover {
+  background: #1a237e;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(41, 55, 177, 0.3);
+}
+
+.team-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-image img:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .team-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  
+  .team-text {
+    max-width: 100%;
+  }
+  
+  .team-text h2 {
+    font-size: 2.4rem;
+  }
+  
+  .team-text p {
+    font-size: 1rem;
+  }
+  
+  .team-image img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-section {
+    padding: 60px 0;
+  }
+  
+  .team-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-text p {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+  
+  .btn-view-team {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+  
+  .team-image img {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-text h2 {
+    font-size: 1.8rem;
+  }
+  
+  .team-text p {
+    font-size: 0.9rem;
+  }
+  
+  .team-image img {
+    max-width: 300px;
+  }
+}

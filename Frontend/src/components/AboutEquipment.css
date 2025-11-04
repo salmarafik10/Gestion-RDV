@@ -1,0 +1,125 @@
+.about-equipment-section {
+  margin-top: 30px;
+  background-color: #FAF7F2; /* Fond bleu foncé */
+  padding: 50px 0;
+  color: #091054;
+}
+
+.about-equipment-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Section texte en haut */
+.equipment-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.equipment-header h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #091054;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  text-align:center ;
+}
+
+.equipment-header p {
+  font-size: 1.1rem;
+  color: #091054;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Section images en bas */
+.equipment-images {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.equipment-card {
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.equipment-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .equipment-header h2 {
+    font-size: 2.2rem;
+  }
+  
+  .equipment-header p {
+    font-size: 1rem;
+  }
+  
+  .equipment-images {
+    gap: 20px;
+  }
+  
+  .equipment-card {
+    min-width: 280px;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-equipment-section {
+    padding: 60px 0;
+  }
+  
+  .equipment-header {
+    margin-bottom: 40px;
+  }
+  
+  .equipment-header h2 {
+    font-size: 2rem;
+  }
+  
+  .equipment-images {
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .equipment-card {
+    min-width: 100%;
+    max-width: 400px;
+  }
+  
+  .equipment-card img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .equipment-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .equipment-header p {
+    font-size: 0.95rem;
+  }
+  
+  .equipment-card img {
+    height: 180px;
+  }
+}

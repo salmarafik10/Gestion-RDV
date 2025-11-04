@@ -1,0 +1,45 @@
+.home-bg {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+
+.about-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.team-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #1a2653;
+}
+
+.home-bg {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.hero-bg-img {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  background: url('../assets/background2.jpeg') center/cover no-repeat;
+  border-radius: 20px;
+  margin: 24px 24px 0 24px;
+  overflow: visible;
+}
+
+.hero-section {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 60px;
+  padding-top: 80px; /* pour laisser la place au header */
+}

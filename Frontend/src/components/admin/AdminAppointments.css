@@ -1,0 +1,16 @@
+.status-badge.pending { background: #f3eaff; color: #7c3aed; }
+.status-badge.confirmed { background: #ffeaea; color: #e53935; }
+.status-badge.cancelled { background: #ffeaea; color: #e53935; }
+.status-badge.completed { background: #e0ffe0; color: #388e3c; }
+.status-badge.absent { background: #e0e0e0; color: #888; }
+.prescription-download-link {
+  color: #2d39b4;
+  font-weight: 500;
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.prescription-download-link:hover {
+  color: #101c54;
+}

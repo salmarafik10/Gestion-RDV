@@ -1,0 +1,128 @@
+.contact-bg {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+
+.contact-hero-content {
+  color: #fff;
+  margin-left: 60px;
+  padding-top: 40px;
+}
+
+.contact-hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+
+.contact-hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  color: #e0e0e0;
+}
+
+.contact-hero-btn {
+  background: #2d39b4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 14px 38px;
+  box-shadow: 0 2px 8px rgba(16,28,84,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-hero-btn:hover {
+  background: #101c54;
+  color: #fff;
+}
+
+.contact-info-section {
+  background: #fff;
+  border-radius: 20px;
+  margin: 32px 24px;
+  padding: 40px 0;
+  box-shadow: 0 4px 16px rgba(16,28,84,0.08);
+}
+
+.contact-info-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-info-left {
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+  padding-left: 32px;
+}
+
+.contact-info-right {
+  flex: 2;
+  min-width: 320px;
+  max-width: 600px;
+  padding-right: 32px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.contact-info-icon {
+  color: #101c54;
+  font-size: 1.3rem;
+  margin-top: 4px;
+}
+
+.contact-info-label {
+  font-weight: 600;
+  color: #101c54;
+  font-size: 1rem;
+}
+
+.contact-learn-btn {
+  background: #2d39b4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 28px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-learn-btn:hover {
+  background: #101c54;
+  color: #fff;
+}
+
+.contact-booked-info {
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .contact-info-container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .contact-info-left, .contact-info-right {
+    padding: 0 12px;
+    max-width: 100%;
+  }
+  .contact-hero-content {
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+}

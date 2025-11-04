@@ -1,0 +1,47 @@
+.feedback-list-section {
+  background: #F4F4F4;
+  height: 500px;
+}
+
+.feedback-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(16,28,84,0.08);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 8px;
+}
+
+.feedback-stars {
+  font-size: 1.5rem;
+  color: #ffe066;
+  letter-spacing: 2px;
+}
+
+.star-filled {
+  color: #ffe066;
+  text-shadow: 0 1px 2px #101c5433;
+}
+
+.star-empty {
+  color: #e0e0e0;
+}
+
+.feedback-message {
+  font-size: 1.1rem;
+  color: #222;
+  font-style: italic;
+}
+
+.feedback-user {
+  color: #101c54;
+  font-size: 1rem;
+}
+
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}

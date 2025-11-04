@@ -1,0 +1,119 @@
+.navbar-bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  padding: 0 60px;
+}
+
+.navbarlogo img {
+  width: 70px;
+  height: auto;
+  margin-left: 50px;
+
+}
+
+.navbar-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar-links li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #4b5563;
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-links a.active,
+.navbar-links a:hover {
+  color: #00084D;
+  font-weight: 600;
+
+}
+
+.navbar-appointment-btn {
+  background: #2d39b4;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 14px 38px;
+  cursor: pointer;
+  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-appointment-btn:hover {
+  background: #101c54;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 900px) {
+  .main-navbar {
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 30px;
+  }
+  
+  .navbar-links {
+    gap: 20px;
+  }
+  
+  .navbar-appointment-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .main-navbar-bg {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-navbar {
+    padding: 0 20px;
+  }
+  
+  .navbar-links {
+    gap: 15px;
+  }
+  
+  .navbar-links a {
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+  
+  .navbar-appointment-btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+}

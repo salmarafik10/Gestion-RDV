@@ -1,0 +1,133 @@
+
+
+.service-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.service-content.reverse {
+  flex-direction: row-reverse;
+}
+.services-hero-content {
+  color: #fff;
+  margin-left: 60px;
+  padding-top: 40px;
+}
+
+.services-hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+
+.services-hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  color: #e0e0e0;
+}
+
+.services-hero-btn {
+  background: #2d39b4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 14px 38px;
+  box-shadow: 0 2px 8px rgba(16,28,84,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+
+.services-hero-btn:hover {
+  background: #101c54;
+  color: #fff;
+}
+
+.service-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.service-section.alt-bg {
+  background: #f8f9fa;
+}
+.service-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.service-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.service-text p {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+
+.service-text ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+.service-text ul li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #176c5b;
+  font-weight: 500;
+}
+
+.service-btn {
+  background: #176c5b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 32px;
+  margin-top: 10px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.service-btn.blue {
+  background: #2d39b4;
+}
+
+.service-btn:hover {
+  background: #101c54;
+  color: #fff;
+}
+
+.service-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-img img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(16,28,84,0.08);
+}
+
+@media (max-width: 900px) {
+  .service-content, .service-content.reverse {
+    flex-direction: column !important;
+    gap: 24px;
+  }
+  .service-img img {
+    width: 220px;
+    height: 220px;
+  }
+}
