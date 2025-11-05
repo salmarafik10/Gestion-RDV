@@ -102,7 +102,7 @@ router.post('/forgot-password', async (req, res) => {
   // Envoie l'email
   const transporter = require('nodemailer').createTransport({
     service: 'gmail',
-    auth: { user: 'rafiksalma092@gmail.com', pass: 'yucr osmd vxco fqvd' }
+    auth: { user: 'rafiksalma092@gmail.com', pass: 'YOUR PASSWORD' }
   });
   const resetUrl = `http://localhost:3000/reset-password?token=${token}`;
   await transporter.sendMail({
